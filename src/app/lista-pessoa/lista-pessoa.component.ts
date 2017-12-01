@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaPessoaComponent implements OnInit {
 
-  pessoas: string[];
+  pessoas: string[] = ['Troll', 'Zezinho', 'Colosso'];
+  nome: string = "Marcondes";
 
   constructor() { }
 

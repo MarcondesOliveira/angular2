@@ -2,6 +2,13 @@
 
 <ul>
   <li>
-    
+    <input type="text" [(ngModel)]="nome">
+      <p><b>{{nome}}</b></p>
+  </li>
+</ul>
+
+<ul>
+  <li	*ngFor="let pessoa of pessoas">
+      {{pessoa}}
   </li>
 </ul>
