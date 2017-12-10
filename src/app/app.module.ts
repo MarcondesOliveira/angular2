@@ -17,6 +17,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { InputOutputComponent } from './input-output/input-output.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { InputOutputComponent } from './input-output/input-output.component';
     NgContentComponent,
     EventBindingComponent,
     InputOutputComponent,
+    FormularioComponent,
   ],
   imports: [
     BrowserModule,
